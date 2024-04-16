@@ -1,19 +1,36 @@
 /*universal mas o menos */
 body {
-    background-color: bisque;
+    background-color: rgb(155, 199, 228);
+    width: 700px;
 }
 
 h1 {
     font-family: 'Brush Script MT', cursive;
-    color: rgb(108, 0, 209);
-    background-color: rgb(255, 174, 0);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: center;
+    margin: 8px;
+    border: 5px solid rgb(255, 175, 199);
+    padding: 10px;
+    border-style: dotted;
+
+}
+
+.desc {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
 }
 
 .index-list {
     font-size: 25px;
     text-align: center;
+    width: 250px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: rgb(243, 207, 225);
+    border: 5px solid burlywood;
+    border-style: groove;
 }
 
 h2, 
